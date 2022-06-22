@@ -2,6 +2,8 @@ package com.in28minutes.junit.helper;
 
 public class StringHelper {
 
+
+	// New Comment by srikanth
 	public String truncateAInFirst2Positions(String str) {
 		if (str.length() <= 2)
 			return str.replaceAll("A", "");
